@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PushNotification</title>
+  <base href="/">
+  <link rel="manifest" href="./manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <app-root></app-root>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAdn_uKvhinZ19DR7Gv_n33b-t0Q_bzoe8",
+      authDomain: "share-van-manager.firebaseapp.com",
+      databaseURL: "https://share-van-manager.firebaseio.com",
+      projectId: "share-van-manager",
+      storageBucket: "share-van-manager.appspot.com",
+      messagingSenderId: "770488551388",
+      appId: "1:770488551388:web:b12dbcf18aec4602e17119",
+      measurementId: "G-4M96Y8GHGQ"
+    };
+  </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.13.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/7.13.1/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
